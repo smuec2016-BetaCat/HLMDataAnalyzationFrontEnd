@@ -1,7 +1,7 @@
 <template>
     <md-app>
       <md-app-toolbar class="md-primary">
-        <h3 class="md-title">SimTask</h3>
+        <h3 class="md-title">BetaCat Demo</h3>
         <div class="md-toolbar-section-end">
           <a href="#">登录</a>
         </div>
@@ -33,7 +33,7 @@ export default {
   name: "MainLayout",
   data: () => {
     return {
-      count: 1
+      count: 10000
     };
   },
   components: {}

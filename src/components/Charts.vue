@@ -14,9 +14,9 @@ export default {
   data: function() {
     let data1 = [];
     let data2 = [];
-    for (let i = 0; i <= 10000; i++) {
-      data1.push([Math.random(), Math.random(), Math.random() * 0.1 + 0.5]);
-      data2.push([Math.random(), Math.random(), Math.random() * 0.1 + 0.1]);
+    for (let i = 0; i <= 5000; i++) {
+      data1.push([Math.random(), Math.random(), Math.random() * 0.4 + 0.4]);
+      data2.push([Math.random(), Math.random(), Math.random() * 0.4 + 0.3]);
     }
     return {
       scatter: {
@@ -33,12 +33,12 @@ export default {
         series: [
           {
             type: "scatter3D",
-            symbolSize: 2.5,
+            symbolSize: 2.3,
             data: data1
           },
           {
             type: "scatter3D",
-            symbolSize: 2.5,
+            symbolSize: 2.3,
             itemStyle: {
               color: "green"
             },
